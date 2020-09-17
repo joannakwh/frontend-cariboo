@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <!-- <script src='../scripts/formhandler.js'></script> -->
+    <script src='../scripts/formhandler.js'></script>
+    <title>Select Car</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Cariboo CMS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="start.html">Add Packages <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <h1>Select Car:</h1>
+        <div class="container">
+            <form name="plusGuide" action="" method="post">
+                <div id='wrapper' style="width: 800px;">
+                    <div class='form-row'>
+                        <!-- select year -->
+                        <select class='col-md-2 form-control' name='selectYear'>
+                            <option>Select Year</option>
+                            <option>2</option>
+                        </select>
+                        <!-- select make -->
+                        <select class='col-md-2 form-control' name='selectMake' disabled>
+                            <option>Select Make</option>
+                            <option>2</option>
+                        </select>
+
+                        <!-- select model -->
+                        <select class='col-md form-control' name='selectModel' disabled>
+                            <option>Select Model</option>
+                        </select>
+
+                        <!-- select season -->
+                        <select class='col-md form-control' name='selectSeason' disabled>
+                            <option>Select Season</option>
+                            <option>SUMMER</option>
+                            <option>WINTER</option>
+                        </select>
+                        <!-- search button -->
+                        <input class='col-md-1 form-control' type="submit" name="search" value="search" disabled>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        </form>
+</body>
+
+</html>
