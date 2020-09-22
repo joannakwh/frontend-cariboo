@@ -1,0 +1,27 @@
+{
+  "name": "frontend-cariboo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joannakwh/frontend-cariboo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joannakwh/frontend-cariboo/issues"
+  },
+  "homepage": "https://github.com/joannakwh/frontend-cariboo#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}

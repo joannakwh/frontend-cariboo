@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type = "module" src="../scripts/submit.js"></script>
+    <link href="../css/style.css" rel="stylesheet">
+    <title>Select Car</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Cariboo CMS</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+            <a class="nav-link" href="../views/selectcar.html">Add Packages <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    </br>
+    <h1 id="title">Loading...</h1>
+    <div class="wrapper">
+        <p id="message"></p>
+        <div id="buttons">
+            <a id="startover" class="btn btn-primary" href="../views/selectcar.html" role="button">Start from beginning</a>
+            <a id="startfromwheels" class="btn btn-primary" href="../views/selectwheel.html" role="button">Choose another wheel</a>
+            <a id="startfromtires" class="btn btn-primary" href="../views/selecttire.html" role="button">Choose another tire</a>
+        </div>
+
+    </div>
+</body>
+</html>
